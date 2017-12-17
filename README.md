@@ -1,10 +1,10 @@
 # PCA_on_GPU
 Principal Component Analysis on GPU(Cuda C++)
 
-First Command 
+First Command :-
 make
 
-Second Command 
+Second Command :-
 ./gpu_pca (inputfile)
 
 Input File Options
