@@ -7,35 +7,3 @@ Second Command
 Input File Options
 
 1.iris_data is in same directory
-2.For more data sets,its in "data" directory 
-3.final_data = 40 columns, 150 rows
-4.col80 = 80 columns, 150 rows
-5.col120 = 120 columns, 150 rows
-6.col160 = 160 columns, 150 rows
-7.col200 = 200 columns, 150 rows
-8.col240 = 240 columns,150 rows
-
-column_addition.sh is script for generating above data sets which is run as ./column_addition.sh
-
-
-How to run CPU version of PCA
-
-1)load module python
-2)./pca_cpu.py input data 
-
-Report is made in latex
-
-1)In latex directory there is a script which run by following command 
-./psf.sh gpu.tex
-2)gpu.tex is main main tex file
-
-All Python Metrics and Events
-
-1)All nvprof metrics and Events are saved as log files as follows
-2)For iris data it is metrics.txt and events.txt
-3)For 240 columns and 150 rows data set it is metrics_240.txt and events_240.txt
-
-Power Point and Report are in same directory
-
-Our Input Function can take upto 1000 rows and 1000 columns
-Our File can read more with small modification in line 80 and line 81 of gpu_pca.cu file 
