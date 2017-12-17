@@ -9,7 +9,7 @@ Second Command :-
 
 Input File Options
 
-iris_data is in same directory
+iris_data(potential input) can be taken from https://archive.ics.uci.edu/ml/datasets/iris
 
 
 References
